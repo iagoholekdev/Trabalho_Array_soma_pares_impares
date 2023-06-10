@@ -49,7 +49,7 @@ public class createArrayController {
         int pares = utils.zero;
 
         for (int[] ints : matriz) {
-            for (int j = utils.zero; j < matriz[0].length; j++) {
+            for (int j = utils.zero; j < matriz[utils.zero].length; j++) {
                 if (ints[j] % utils.dois == utils.zero) {
                     pares++;
                 }
